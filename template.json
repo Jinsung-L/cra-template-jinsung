@@ -1,6 +1,7 @@
 {
   "package": {
     "dependencies": {
+      "@craco/craco": "^5.7.0",
       "@testing-library/react": "^9.3.2",
       "@testing-library/jest-dom": "^4.2.4",
       "@testing-library/user-event": "^7.1.2",
@@ -8,7 +9,14 @@
       "@types/react": "^16.9.0",
       "@types/react-dom": "^16.9.0",
       "@types/jest": "^24.0.0",
+      "autoprefixer": "^9.8.6",
+      "tailwindcss": "^1.9.4",
       "typescript": "~3.7.2"
+    },
+    "scripts": {
+      "start": "craco start",
+      "build": "craco build",
+      "test": "craco test"
     }
   }
 }
