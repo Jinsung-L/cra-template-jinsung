@@ -1,0 +1,27 @@
+{
+  "name": "cra-template-jinsung",
+  "version": "0.1.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "Jinsung's custom template for Create React App.",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jinsung-L/cra-template-jinsung"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "bugs": {
+    "url": "https://github.com/Jinsung-L/cra-template-jinsung/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
