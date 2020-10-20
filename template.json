@@ -13,10 +13,24 @@
       "tailwindcss": "^1.9.4",
       "typescript": "~3.7.2"
     },
+    "devDependencies": {
+      "@babel/core": "^7.12.3",
+      "@storybook/addon-actions": "^6.0.26",
+      "@storybook/addon-essentials": "^6.0.26",
+      "@storybook/addon-links": "^6.0.26",
+      "@storybook/node-logger": "^6.0.26",
+      "@storybook/preset-create-react-app": "^3.1.4",
+      "@storybook/react": "^6.0.26",
+      "babel-loader": "^8.1.0",
+      "react-is": "^16.13.1"
+    },
     "scripts": {
       "start": "craco start",
       "build": "craco build",
-      "test": "craco test"
+      "test": "craco test",
+      "init:storybook": "npx sb init && git restore .storybook && git clean -df src",
+      "storybook": "start-storybook -p 6006 -s public",
+      "build-storybook": "build-storybook -s public"
     }
   }
 }
