@@ -4,7 +4,8 @@ This is my custom template for [Create React App](https://github.com/facebook/cr
 
 This template includes:
 
-- TypeScript
+- [TailwindCSS](https://tailwindcss.com)
+- [TypeScript](https://www.typescriptlang.org)
 
 To use this template, add `--template jinsung` when creating a new app.
 
