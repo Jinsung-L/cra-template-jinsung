@@ -32,6 +32,14 @@ function App() {
           >
             Learn Tailwind
           </a>
+          <a
+            className="uppercase btn btn--yellow"
+            href="https://storybook.js.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn Storybook
+          </a>
         </p>
       </header>
     </div>
