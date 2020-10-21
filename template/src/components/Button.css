@@ -1,0 +1,20 @@
+@layer components {
+  .Button {
+    @apply inline-block px-4 py-2 rounded-lg;
+    @apply font-medium;
+  }
+  @responsive {
+    .Button--sm {
+      @apply px-3 py-1 text-sm rounded-md;
+    }
+    .Button--md {
+      @apply px-4 py-2 text-base;
+    }
+    .Button--lg {
+      @apply px-6 text-xl;
+    }
+    .Button--xl {
+      @apply px-10 text-4xl;
+    }
+  }
+}

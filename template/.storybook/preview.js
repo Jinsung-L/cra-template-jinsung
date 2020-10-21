@@ -23,21 +23,21 @@ export const parameters = {
         name: 'md',
         styles: {
           width: '768px',
-          height: '1000px',
+          height: '1024px',
         },
       },
       lg: {
         name: 'lg',
         styles: {
           width: '1024px',
-          height: '1000px',
+          height: '768px',
         },
       },
       xl: {
         name: 'xl',
         styles: {
           width: '1280px',
-          height: '1000px',
+          height: '720px',
         },
       },
     }

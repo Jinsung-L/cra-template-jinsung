@@ -2,6 +2,8 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
+import { SizeIndicator } from "./components/SizeIndicator";
+
 function App() {
   return (
     <div className="App">
@@ -9,6 +11,9 @@ function App() {
         <img className="App-logo" src={logo} alt="logo" />
         <p className="p-3 mt-5 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
           Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <p className="my-2">
+          <SizeIndicator />
         </p>
         <p className="flex flex-col justify-center mt-6 md:flex-row">
           <a

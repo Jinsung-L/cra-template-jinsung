@@ -36,3 +36,16 @@ For more information, please refer to:
 
 - [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
 - [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
+
+## Troubleshotting
+
+### Storybook was built without an error but fails to render
+
+This happens when there's
+To workaround this issue, try `start-storybook` command with `--no-dll` option.
+
+```sh
+start-storybook -p 6006 -s public --no-dll
+```
+
+For more information, please refer to [Storybook's issue tracker](https://github.com/storybookjs/storybook/issues)
