@@ -3,8 +3,15 @@ import '../src/index.css'
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   viewport: {
-    defaultViewport: 'sm',
+    defaultViewport: 'xs',
     viewports: {
+      xs: {
+        name: 'xs',
+        styles: {
+          width: '320px',
+          height: '568px',
+        },
+      },
       sm: {
         name: 'sm',
         styles: {
