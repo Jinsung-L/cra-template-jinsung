@@ -1,12 +1,13 @@
 {
   "name": "cra-template-jinsung",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "keywords": [
     "react",
     "create-react-app",
     "template",
     "tailwindcss",
-    "typescript"
+    "typescript",
+    "storybook"
   ],
   "description": "Jinsung's custom template for Create React App.",
   "main": "template.json",
