@@ -20,6 +20,8 @@ npx create-react-app my-app --template jinsung
 yarn create react-app my-app --template jinsung
 ```
 
+## Init Storybook
+
 You have to manually init Storybook because Create React App doesn't support devDependencies for custom templates for now. Initialize storybook and discard all changes under `.storybook/` by executing the following npm script.
 
 ```sh
