@@ -1,6 +1,6 @@
 {
   "name": "cra-template-jinsung",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "keywords": [
     "react",
     "create-react-app",
@@ -11,6 +11,9 @@
   ],
   "description": "Jinsung's custom template for Create React App.",
   "main": "template.json",
+  "scripts": {
+    "test": "npx create-react-app build/test-cra --template file:./"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Jinsung-L/cra-template-jinsung"
