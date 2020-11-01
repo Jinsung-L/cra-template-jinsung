@@ -20,20 +20,6 @@ npx create-react-app my-app --template jinsung
 yarn create react-app my-app --template jinsung
 ```
 
-## Init Storybook
-
-You have to manually init Storybook because Create React App doesn't support devDependencies for custom templates for now. Initialize storybook and discard all changes under `.storybook/` by executing the following npm script.
-
-```sh
-npm run init:storybook
-
-# or run it manually
-
-npx sb init
-git restore .storybook
-git clean -df src
-```
-
 For more information, please refer to:
 
 - [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
@@ -43,11 +29,18 @@ For more information, please refer to:
 
 ### Storybook was built without an error but fails to render
 
-This happens when there's
+This happens when there's unresolved issues on Storybook often related to the latest version of React or TypeScript.
+
 To workaround this issue, try `start-storybook` command with `--no-dll` option.
 
 ```sh
 start-storybook -p 6006 -s public --no-dll
+```
+
+Or upgrade Storybook to the preleased version which might has already resolved the issue.
+
+```sh
+npx sb@next upgrade --prerelease
 ```
 
 For more information, please refer to [Storybook's issue tracker](https://github.com/storybookjs/storybook/issues)

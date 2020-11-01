@@ -29,7 +29,6 @@
       "start": "craco start",
       "build": "craco build",
       "test": "craco test",
-      "init:storybook": "npx sb init && git restore .storybook && git clean -df src",
       "storybook": "start-storybook -p 6006 -s public",
       "build-storybook": "build-storybook -s public"
     },
